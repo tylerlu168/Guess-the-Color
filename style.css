@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+header { /*sets the header neavy with a 100px height*/
+    background-color: navy;
+    font-family: cursive;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: white;
+}
+
+body{ /*sets the background*/
+    background-color: black;
+    color: white;
+    font-family: Roboto;
+    font-size: 48px;
+    margin: 0px;
+}
+.rgb{
+    color: white;
+    line-height: 200px;
+    text-align: center; /*aligns the text to the center of the screen*/
+    grid-column: 1 / 6;
+
+}
+
+.score{
+    color: white;
+    text-align: left;
+    grid-row: 4 / 5;
+    grid-column: 3 / 4;
+}
+.label{
+    color: white;
+    text-align: right;
+    grid-row: 4 / 4;
+    grid-column: 2 / 2;
+}
+.one
+{
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+}
+.two
+{
+    grid-row: 2 / 3;
+    grid-column: 3 / 4;
+}
+.three
+{
+    grid-row: 2 / 3;
+    grid-column: 4 / 5;
+}
+.four
+{
+    grid-row: 3 / 3;
+    grid-column: 2 / 3;
+}
+.five
+{
+    grid-row: 3 / 3;
+    grid-column: 3 / 4;
+}
+.six
+{
+    grid-row: 3 / 3;
+    grid-column: 4 / 5;
+}
+
+.tile{
+    border: 2px solid white
+}
+.container{
+    display: grid;
+    /* 5 columns */
+    /* 4 rows */
+   
+
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /*assigns the columns of the grid*/
+    grid-template-rows: 1fr 1fr 1fr 1fr; /*assigns the rows of the grid*/
+
+    gap: 10px;
+    margin: 0px auto;
+    width: 1024px;
+}
+
